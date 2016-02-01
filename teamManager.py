@@ -39,8 +39,8 @@ while c != 3:
 	elif  c == 2 :
 		print("The Stats of All the players")
 		# we use a for statement 
-		for cs in myPlayers:
-			# it will print the status of the players name,age,goals of all of the players you created 
-			cs.printStats()	
+		for soccer in myPlayers:
+		# it will print the status of the players name,age,goals of all of the players you created 
+			soccer.printStats()	
 			c = int(raw_input())
 
