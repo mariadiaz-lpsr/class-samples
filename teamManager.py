@@ -42,8 +42,5 @@ while c != 3:
 		for cs in myPlayers:
 			# it will print the status of the players name,age,goals of all of the players you created 
 			cs.printStats()	
-			c = raw_input()
-print("Do you want to add player,print,or exit, choose one below")
-print("(1) Add Players")
-print("(2) Print Players")
-print("(3) To exit")
+			c = int(raw_input())
+
