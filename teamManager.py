@@ -19,8 +19,8 @@ print("(2) Print Players")
 print("(3) To exit")
 c = int(raw_input())
 # it has a while loop when c is not equal to 3
-	# if the input equals to 1 it will do the things below 
-while c != 3:	
+while c != 3:
+	 # if the input equals to 1 it will do the things below 
 	if c == 1:
 		print("Name:")
 		choose = raw_input()
