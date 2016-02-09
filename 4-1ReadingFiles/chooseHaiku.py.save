@@ -1,0 +1,16 @@
+print("Hey, Welcome to the Haiku Reader!")
+ 
+print("Pick one of these Haiku") 
+print("(3) For a haiku about a mirror related") 
+print("(4) For a haiku about the haikus been easy..") 
+# file is going to open 
+MyHaiku3 = open('haiku3.txt', 'r')
+MyHaiku4 = open('haiku4.txt', 'r')
+
+option = int(raw_input()) 
+if option == 3:
+	print(MyHaiku3.read())
+	
+elif option == 4:
+	print(MyHaiku4.read())
+
