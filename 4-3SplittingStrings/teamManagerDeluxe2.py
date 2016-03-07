@@ -33,7 +33,7 @@ def loadTeam(filename):
         # the file is going to breakdown in small pieces
 	while my_team != "":
 		teamm = my_team.split()
-                team.append(Player(teamm[0] + ' ' + teamm[1] + teamm[2] + ' ' + teamm[3] +  ' ' + teamm[4]))
+                team.append(Player(teamm[0], teamm[1], teamm[2], teamm[3], teamm[4]))
                 my_team = my_loadteam.readline()
  	# now the file will close
 	my_loadteam.close()
