@@ -19,7 +19,7 @@ ListOfPrime = []
 # the file numbers.txt will open so it can be append the numbers that are prime only
 prime = open("numbers.txt", "w")
 # the range is from 2 to 100000
-r = range(2, 10000)
+r = range(2, 100000)
 for PList in r:
 	numberss =  isPrime(PList, ListOfPrime)
 for y in ListOfPrime:
