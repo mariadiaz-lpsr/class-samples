@@ -1,7 +1,7 @@
 # returns True if myNum is prime 
 # returns False is myNum is composite
 def isPrime(x, myNum):
-	# here is where it will have a certain range from 1 to 10000 
+	# here is where it will have a certain range from 2 to 100000 
 	y = range(2,int(x))
 	# subtract each first to 2
 	primenum = x - 2
