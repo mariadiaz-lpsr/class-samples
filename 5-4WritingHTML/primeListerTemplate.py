@@ -11,7 +11,7 @@ def isPrime(x, myNum):
 		rem_prime = int(x) % int(prime)
 		if rem_prime != 0:
 			count = count + 1
-		# if it is prime it will print it and append it to the listofprime
+		# if it is prime it will print it and append it to the ListOfPrime
 		if count == primenum:
 			print(x)
 			myNum.append(x)
