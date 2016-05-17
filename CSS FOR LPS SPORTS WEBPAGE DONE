@@ -1,0 +1,36 @@
+h1 {
+  text-align:center;
+  font-family:Cursive;
+
+}
+#container{
+  border-style:double;
+}
+h3, ul{ 
+  border-color: #E3E4FA;
+  border-style:double;
+  border-width:10px;
+}
+h2{
+  color:#E9CFEC;
+}
+h4{
+  text-align: right;
+}
+#nav{
+  background-color:#9900ff;
+  float:left;
+}
+div{
+    text-align:center;
+}
+#footer {
+        border-style:double;
+        background-color:#9900cc;
+}
+h6, h7{
+  font-size: 20px;
+}
+h8{
+  color: blue;
+}
